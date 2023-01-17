@@ -1,0 +1,36 @@
+{
+  "students" : [
+    {
+      "Student": {
+        "firstName": "Alexandru",
+        "lastName": "Munteanu",
+        "father": {
+          "firstName": "Ionut",
+          "lastName": "Munteanu"
+        },
+        "mother": {
+          "firstName": "Ramona",
+          "lastName": "Munteanu"
+        }
+      },
+      "Course": "POO",
+      "Grade": 5.0
+    },
+    {
+      "Student": {
+        "firstName": "Victor",
+        "lastName": "Ciulacu",
+        "father": {
+          "firstName": "Ion",
+          "lastName": "Ciulacu"
+        },
+        "mother": {
+          "firstName": "Maria",
+          "lastName": "Ciulacu"
+        }
+      },
+      "Course": "POO",
+      "Grade": 4.75
+    }
+]
+}

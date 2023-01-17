@@ -1,0 +1,576 @@
+{
+  "courses" : [
+    {
+      "Type": "full",
+      "Credits": 10,
+      "Name" : "POO",
+      "Strategy" : "BestExamScore",
+      "Teacher": {
+        "firstName" : "Victor",
+        "lastName" : "Georgescu"
+      },
+      "groups": [
+        {
+          "ID" : "ABC",
+          "Assistant" : {
+            "firstName" : "Mircea",
+            "lastName" : "CelBatran"
+          }
+        },
+        {
+          "ID" : "AAA",
+          "Assistant" : {
+            "firstName": "Gaius",
+            "lastName" : "Octavianus"
+          }
+        }
+      ],
+      "assistants":[
+        {
+          "Assistant" : {
+            "firstName" : "Mihai",
+            "lastName" : "Lucian"
+          }
+        },
+        {
+          "Assistant" : {
+            "firstName" : "Babes",
+            "lastName" : "Rusu"
+          }
+        }
+      ],
+      "grades" : [
+        {
+          "Grade": {
+            "Course": "POO",
+            "partialScore": 3.0,
+            "finalScore": 1.0,
+            "ID" : "ABC",
+            "Student": {
+              "firstName": "Alexandru",
+              "lastName": "Munteanu",
+              "mother": {
+                "firstName": "Ramona",
+                "lastName": "Munteanu"
+              },
+              "father": {
+                "firstName": "Ionut",
+                "lastName": "Munteanu"
+              }
+            }
+          }
+        },
+        {
+          "Grade": {
+            "Course": "POO",
+            "partialScore": 5.0,
+            "finalScore": 5.0,
+            "ID" : "AAA",
+            "Student": {
+              "firstName": "Victor",
+              "lastName": "Constantin",
+              "mother": {
+                "firstName": "Maria",
+                "lastName": "Constantin"
+              },
+              "father": {
+                "firstName": "Ionut",
+                "lastName": "Constantin"
+              }
+            }
+          }
+        },
+        {
+          "Grade": {
+            "Course": "POO",
+            "partialScore": 3.0,
+            "finalScore": 2.0,
+            "ID" : "AAA",
+            "Student": {
+              "firstName": "Victor",
+              "lastName": "Ciulacu",
+              "mother": {
+                "firstName": "Maria",
+                "lastName": "Ciulacu"
+              },
+              "father": {
+                "firstName": "Ion",
+                "lastName": "Ciulacu"
+              }
+            }
+          }
+        },
+        {
+          "Grade": {
+            "Course": "POO",
+            "partialScore": 1.2,
+            "finalScore": 4.0,
+            "ID" : "AAA",
+            "Student": {
+              "firstName": "Gigel",
+              "lastName": "Frone",
+              "mother": {
+                "firstName": "Cristina",
+                "lastName": "Frone"
+              },
+              "father": {
+                "firstName": "Victor",
+                "lastName": "Frone"
+              }
+            }
+          }
+        },
+        {
+          "Grade": {
+            "Course": "POO",
+            "partialScore": 2.3,
+            "finalScore": 2.0,
+            "ID" : "AAA",
+            "Student": {
+              "firstName": "Henry",
+              "lastName": "Al4lea",
+              "mother": {
+                "firstName": "Magdalena",
+                "lastName": "Al4lea"
+              },
+              "father": {
+                "firstName": "George",
+                "lastName": "Al4lea"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Name" : "DEEA",
+      "Type" : "full",
+      "Credits" : 7,
+      "Strategy" : "BestExamScore",
+      "Teacher": {
+        "firstName" : "Alex",
+        "lastName" : "Petrescu"
+      },
+      "groups": [
+        {
+          "ID" : "ABC",
+          "Assistant" : {
+            "firstName" : "Stefan",
+            "lastName" : "Racasanu"
+          }
+        },
+        {
+          "ID" : "AAA",
+          "Assistant" : {
+            "firstName": "Julius",
+            "lastName" : "Caesar"
+          }
+        }
+      ],
+      "assistants":[
+        {
+          "Assistant" : {
+            "firstName" : "Marcus",
+            "lastName" : "Aurelius"
+          }
+        },
+        {
+          "Assistant" : {
+            "firstName" : "Senaca",
+            "lastName" : "ShAtat"
+          }
+        }
+      ],
+      "grades" : [
+        {
+          "Grade": {
+            "Course": "DEEA",
+            "partialScore": 3.0,
+            "finalScore": 5.0,
+            "ID" : "ABC",
+            "Student": {
+              "firstName": "Alexandru",
+              "lastName": "Constantin",
+              "mother": {
+                "firstName": "Maria",
+                "lastName": "Constantin"
+              },
+              "father": {
+                "firstName": "Ionut",
+                "lastName": "Constantin"
+              }
+            }
+          }
+        },
+        {
+          "Grade": {
+            "Course": "DEEA",
+            "partialScore": 5.0,
+            "finalScore": 5.0,
+            "ID" : "AAA",
+            "Student": {
+              "firstName": "Victor",
+              "lastName": "Constantin",
+              "mother": {
+                "firstName": "Maria",
+                "lastName": "Constantin"
+              },
+              "father": {
+                "firstName": "Ionut",
+                "lastName": "Constantin"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Type" : "partial",
+      "Credits" : 3,
+      "Name" : "SO",
+      "Strategy" : "BestExamScore",
+      "Teacher": {
+        "firstName" : "Gheorge",
+        "lastName" : "Matei"
+      },
+      "groups": [
+        {
+          "ID" : "ABC",
+          "Assistant" : {
+            "firstName" : "Dragos",
+            "lastName" : "Argint"
+          }
+        },
+        {
+          "ID" : "AAA",
+          "Assistant" : {
+            "firstName": "Razvan",
+            "lastName" : "Nitu"
+          }
+        }
+      ],
+      "assistants":[
+        {
+          "Assistant" : {
+            "firstName" : "Razvan",
+            "lastName" : "Deaconescu"
+          }
+        },
+        {
+          "Assistant" : {
+            "firstName" : "Gabriel",
+            "lastName" : "Mocanu"
+          }
+        }
+      ],
+      "grades" : [
+        {
+          "Grade": {
+            "Course": "SO",
+            "partialScore": 3.0,
+            "finalScore": 5.0,
+            "ID" : "ABC",
+            "Student": {
+              "firstName": "Alexandru",
+              "lastName": "Constantin",
+              "mother": {
+                "firstName": "Maria",
+                "lastName": "Constantin"
+              },
+              "father": {
+                "firstName": "Ionut",
+                "lastName": "Constantin"
+              }
+            }
+          }
+        },
+        {
+          "Grade": {
+            "Course": "SO",
+            "partialScore": 5.0,
+            "finalScore": 5.0,
+            "ID" : "AAA",
+            "Student": {
+              "firstName": "Victor",
+              "lastName": "Constantin",
+              "mother": {
+                "firstName": "Maria",
+                "lastName": "Constantin"
+              },
+              "father": {
+                "firstName": "Ionut",
+                "lastName": "Constantin"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Type": "partial",
+      "Credits": 3,
+      "Name" : "IA4",
+      "Strategy" : "BestExamScore",
+      "Teacher": {
+        "firstName" : "Alin",
+        "lastName" : "Dan"
+      },
+      "groups": [
+        {
+          "ID" : "ABC",
+          "Assistant" : {
+            "firstName" : "Vlad",
+            "lastName" : "Tepes"
+          }
+        },
+        {
+          "ID" : "AAA",
+          "Assistant" : {
+            "firstName": "Alex",
+            "lastName" : "Chiriac"
+          }
+        }
+      ],
+      "assistants":[
+        {
+          "Assistant" : {
+            "firstName" : "Mihai",
+            "lastName" : "Lucian"
+          }
+        },
+        {
+          "Assistant" : {
+            "firstName" : "Vasile",
+            "lastName" : "Maracine"
+          }
+        }
+      ],
+      "grades" : [
+        {
+          "Grade": {
+            "Course": "IA4",
+            "partialScore": 5.0,
+            "finalScore": 5.0,
+            "ID" : "AAA",
+            "Student": {
+              "firstName": "Costel",
+              "lastName": "Vulcanizare",
+              "mother": {
+                "firstName": "Joanna",
+                "lastName": "Vulcanizare"
+              },
+              "father": {
+                "firstName": "Trandafir",
+                "lastName": "Vulcanizare"
+              }
+            }
+          }
+        },
+        {
+          "Grade": {
+            "Course": "IA4",
+            "partialScore": 3.5,
+            "finalScore": 2.76,
+            "ID" : "AAA",
+            "Student": {
+              "firstName": "Dragos",
+              "lastName": "Magura",
+              "mother": {
+                "firstName": "Maria",
+                "lastName": "Magura"
+              },
+              "father": {
+                "firstName": "Ionut",
+                "lastName": "Magura"
+              }
+            }
+          }
+        },
+        {
+          "Grade": {
+            "Course": "IA4",
+            "partialScore": 3.6,
+            "finalScore": 2.3,
+            "ID" : "AAA",
+            "Student": {
+              "firstName": "Victor",
+              "lastName": "Ciulacu",
+              "mother": {
+                "firstName": "Maria",
+                "lastName": "Ciulacu"
+              },
+              "father": {
+                "firstName": "Ion",
+                "lastName": "Ciulacu"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Name" : "Fizik",
+      "Type" : "full",
+      "Credits" : 7,
+      "Strategy" : "BestPartialScore",
+      "Teacher": {
+        "firstName" : "Domnu",
+        "lastName" : "Ciobanu"
+      },
+      "groups": [
+        {
+          "ID" : "ABC",
+          "Assistant" : {
+            "firstName" : "Vasile",
+            "lastName" : "Georgescu"
+          }
+        },
+        {
+          "ID" : "AAA",
+          "Assistant" : {
+            "firstName": "Vector",
+            "lastName" : "Sortat"
+          }
+        }
+      ],
+      "assistants":[
+        {
+          "Assistant" : {
+            "firstName" : "Traianus",
+            "lastName" : "Decebalus"
+          }
+        },
+        {
+          "Assistant" : {
+            "firstName" : "Nero",
+            "lastName" : "ShAtat"
+          }
+        }
+      ],
+      "grades" : [
+        {
+          "Grade": {
+            "Course": "Fizik",
+            "partialScore": 2.0,
+            "finalScore": 2.5,
+            "ID" : "ABC",
+            "Student": {
+              "firstName": "Victor",
+              "lastName": "Babes",
+              "mother": {
+                "firstName": "Teodora",
+                "lastName": "Babes"
+              },
+              "father": {
+                "firstName": "Eduard",
+                "lastName": "Babes"
+              }
+            }
+          }
+        },
+        {
+          "Grade": {
+            "Course": "Fizik",
+            "partialScore": 5.0,
+            "finalScore": 5.0,
+            "ID" : "AAA",
+            "Student": {
+              "firstName": "Melania",
+              "lastName": "Gheorghe",
+              "mother": {
+                "firstName": "Steluta",
+                "lastName": "Georghe"
+              },
+              "father": {
+                "firstName": "Vladimir",
+                "lastName": "Gheorghe"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Name" : "CursImportant",
+      "Type" : "full",
+      "Credits" : 69,
+      "Strategy" : "BestPartialScore",
+      "Teacher": {
+        "firstName" : "Victor",
+        "lastName" : "Georgescu"
+      },
+      "groups": [
+        {
+          "ID" : "ABC",
+          "Assistant" : {
+            "firstName" : "Florin",
+            "lastName" : "Peste"
+          }
+        },
+        {
+          "ID" : "AAA",
+          "Assistant" : {
+            "firstName": "Adi",
+            "lastName" : "Minune"
+          }
+        }
+      ],
+      "assistants":[
+        {
+          "Assistant" : {
+            "firstName" : "Florin",
+            "lastName" : "Salam"
+          }
+        },
+        {
+          "Assistant" : {
+            "firstName" : "Nicolae",
+            "lastName" : "Guta"
+          }
+        }
+      ],
+      "grades" : [
+        {
+          "Grade": {
+            "Course": "CursImportant",
+            "partialScore": 2.0,
+            "finalScore": 2.5,
+            "ID" : "ABC",
+            "Student": {
+              "firstName": "Alexandru",
+              "lastName": "Munteanu",
+              "mother": {
+                "firstName": "Ramona",
+                "lastName": "Munteanu"
+              },
+              "father": {
+                "firstName": "Ionut",
+                "lastName": "Munteanu"
+              }
+            }
+          }
+        },
+        {
+          "Grade": {
+            "Course": "CursImportant",
+            "partialScore": 5.0,
+            "finalScore": 5.0,
+            "ID" : "AAA",
+            "Student": {
+              "firstName": "Teodora",
+              "lastName": "Sandulescu",
+              "mother": {
+                "firstName": "Steluta",
+                "lastName": "Sandulescu"
+              },
+              "father": {
+                "firstName": "Tatal",
+                "lastName": "Sandulescu"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
