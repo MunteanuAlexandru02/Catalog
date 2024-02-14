@@ -558,14 +558,14 @@
             "ID" : "AAA",
             "Student": {
               "firstName": "Teodora",
-              "lastName": "Sandulescu",
+              "lastName": "Maria",
               "mother": {
-                "firstName": "Steluta",
-                "lastName": "Sandulescu"
+                "firstName": "Mama",
+                "lastName": "Maria"
               },
               "father": {
                 "firstName": "Tatal",
-                "lastName": "Sandulescu"
+                "lastName": "Maria"
               }
             }
           }
